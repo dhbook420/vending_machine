@@ -13,6 +13,9 @@ class Widget : public QWidget
 {
     Q_OBJECT
     int money;
+private:
+	Ui::Widget *ui;
+	int money;
 
 public:
     Widget(QWidget *parent = nullptr);

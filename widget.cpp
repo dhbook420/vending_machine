@@ -87,7 +87,7 @@ void Widget::on_pbReset_clicked()
         int n_10 = remaining / 10;
         remaining %= 10;
 
-        QString text = QString("거스름돈\n500원: %1개\n100원: %2개\n50원: %3개\n10원: %4개").arg(n_500).arg(n_100).arg(n_50).arg(n_10);
+        QString text = QString("change\n500 won: %1 \n100 won: %2 \n50  won: %3 \n10  won: %4 ").arg(n_500).arg(n_100).arg(n_50).arg(n_10);
 
         mb.information(this, "Reset", text);
         changeMoney(-money);
