@@ -12,7 +12,6 @@ QT_END_NAMESPACE
 class Widget : public QWidget
 {
     Q_OBJECT
-    int money;
 private:
 	Ui::Widget *ui;
 	int money;
@@ -41,8 +40,6 @@ private slots:
 
     void on_pbReset_clicked();
 
-private:
-    Ui::Widget *ui;
 };
 #endif // WIDGET_H
 
